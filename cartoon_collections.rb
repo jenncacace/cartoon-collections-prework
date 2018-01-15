@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(phrase)
   phrase.collect do |word|
-    puts "#{word.capitalize}!" 
+   "#{word.capitalize}!" 
   end 
 end
 
