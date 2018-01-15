@@ -7,6 +7,7 @@ end
 def summon_captain_planet(phrase)
   phrase.collect do |word|
     puts "#{word.capitalize}!" 
+  end 
 end
 
 def long_planeteer_calls# code an argument here
